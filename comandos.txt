@@ -1,0 +1,3 @@
+rustc	hello-world.rs
+./hello-world
+rustc	hello-world.rs	--verbose
