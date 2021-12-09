@@ -1,3 +1,27 @@
+CAPÍTULO 1
+--------------------------------------------
 rustc	hello-world.rs
 ./hello-world
 rustc	hello-world.rs	--verbose
+--------------------------------------------
+
+CAPÍTULO 2
+--------------------------------------------
+Criar novo projeto:
+cargo new hello_world --bin --vcs none
+
+Verificar esse comando, não rodou no git bash:
+tree hello_world/
+
+Na raiz do projeto(diretório hello_world) é possível executar os comandos abaixo.
+
+Compilar:
+cargo build
+cargo build --release
+
+Executar:
+./target/debug/hello_world
+OU
+cargo run
+cargo run --release
+--------------------------------------------
